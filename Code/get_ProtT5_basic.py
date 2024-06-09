@@ -102,7 +102,6 @@ if __name__ == '__main__':
     per_protein = 1
     sec_struct = 0
 
-    # 这里更改数据的路径
     path = '../Data/DBPs/PDB1075/'
     filename = 'PDB1075_train_P.txt'
     seq_dict = get_seq(path, filename)
@@ -119,7 +118,6 @@ if __name__ == '__main__':
     import pickle
     import numpy as np
 
-    # 保存 pickle 文件
     pickle_filepath = "../Pre-trained_features/DBPs/" + filename + '_t5.pkl'
     with open(pickle_filepath, "wb") as tf:
         pickle.dump(results["protein_embs"], tf)
