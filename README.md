@@ -1,6 +1,6 @@
 ## PreDBP-PLMs
 
-#### PreDBP-PLMs was developed for the identification of DNA-binding proteins.
+PreDBP-PLMs was developed for the identification of DNA-binding proteins.
 ## Requirements
 
 numpy==1.20.3 <br>
